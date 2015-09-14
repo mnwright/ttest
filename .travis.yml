@@ -1,0 +1,15 @@
+language: r
+warnings_are_errors: true
+
+before_install:
+    - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test -y
+    - sudo apt-get -qq update
+    - sudo apt-get -qq install g++-4.8
+    - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 90
+
+notifications:
+  email:
+    recipients:
+        - michellang@gmail.com
+    on_success: always
+    on_failure: always
