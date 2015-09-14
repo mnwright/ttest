@@ -11,10 +11,3 @@ before_install:
 before_script:
     - gcc --version
     - g++ --version
-
-notifications:
-  email:
-    recipients:
-        - michellang@gmail.com
-    on_success: always
-    on_failure: always
