@@ -9,5 +9,6 @@ Description: Toying around with Travis CI.
 License: GPL (>= 2)
 Imports: 
     Rcpp (>= 0.12.0),
-    ranger
+    ranger, 
+    mlr
 LinkingTo: Rcpp
